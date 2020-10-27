@@ -16,6 +16,7 @@
   "scripts": {
     "clean": "rimraf lib e2e/*.log",
     "compile": "tsc -p .",
+    "compile:perf": "rimraf tsconfig.tsbuildinfo && tsc --generateTrace ts_perf -p .",
     "lint": "eslint \"src/**/*.{ts,tsx}\"",
     "jest": "jest",
     "jest:ci": "jest --coverage",

@@ -9,3 +9,4 @@ types/
 manifest.json
 coverage/
 e2e_coverage/
+ts_perf/
